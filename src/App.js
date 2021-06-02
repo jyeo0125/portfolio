@@ -12,13 +12,15 @@ function App() {
       <NavBar/>
       <hr></hr>
       <Active/>
+      <hr></hr>
       <AboutMe/>
+      <hr></hr>
       <Skills/>
+      <hr></hr>
       <Projects/>
       <hr></hr>
       <Footer/>
       
-     
     </div>
   );
 }

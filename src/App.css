@@ -1,11 +1,23 @@
 .cardDiv{
   width: 400px;
-  height: 700px;
+  
+
 }
 .cardCon{
   display: flex;
   justify-content: space-around;
+  border:1px solid;
 }
 .gitBtn{
   margin: 10px;
+}
+.navBar{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.myPic{
+  width: 100px;
+  height: 100px;
+  
 }

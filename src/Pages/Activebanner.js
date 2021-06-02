@@ -1,7 +1,7 @@
 const Active = ()=> {
     return(
         <div>
-            hello from active
+            This place will show the animated img
         </div>
     )
 }
