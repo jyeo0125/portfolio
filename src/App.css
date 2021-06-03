@@ -6,7 +6,15 @@
 .cardCon{
   display: flex;
   justify-content: space-around;
-  border:1px solid;
+}
+.singleCard{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 300px;
+  min-width: 300px;
+  
 }
 .gitBtn{
   margin: 10px;
@@ -14,10 +22,31 @@
 .navBar{
   padding-left: 20px;
   padding-right: 20px;
-  
+  position: sticky;
+  top: 0;
+  background-color: white;
+  max-height: 150px;
+  height: 140px;
+  min-height: 100px;
 }
 .myPic{
   width: 100px;
   height: 100px;
   
+}
+.aboutMecon{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+}
+.cardImg{
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
 }

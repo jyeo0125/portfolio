@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <hr></hr>
+      
       <Active/>
       <hr></hr>
       <AboutMe/>

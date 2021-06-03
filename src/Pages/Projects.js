@@ -8,19 +8,21 @@ const Projects = (props)=> {
         
     <div className='cardCon'>    
             <div className='cardDiv'>
-            <Card>
-                <CardImg top width="100%" src="/assets/318x180.svg" alt="Solo project Img need to update the outline before take screen shoot" />
+            <Card className='singleCard'>
+                <CardImg className='cardImg'top width="100%" src="https://i.imgur.com/L8csjpc.png" alt="Solo project Img need to update the outline before take screen shoot" />
                 <CardBody>
                 <CardTitle tag="h5">Drag&Drop Puzzle  </CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">JavaScript,HTML,CSS</CardSubtitle>
                 <CardText>This simple Drag and Drop Puzzle can play with other person. When a user finish the game, it shows who is the winner.</CardText>
-                <Button href="https://github.com/jyeo0125/solo-project1" >GitHub</Button>
+                <Button className='gitBtn' href="https://github.com/jyeo0125/solo-project1" >GitHub</Button>
+                <Button className='gitBtn' href="https://jyeo0125.github.io/solo-project1/" >Play</Button>
+                
                 </CardBody>
             </Card>
             </div>
             <div className='cardDiv'>
-            <Card>
-                <CardImg top width="100%" src="/assets/318x180.svg" alt="Final project img need to update" />
+            <Card className='singleCard'>
+                <CardImg className='cardImg'top width="100%" src="/assets/318x180.svg" alt="Final project img need to update" />
                 <CardBody>
                 <CardTitle tag="h5">Personal Blog  </CardTitle>
                 <CardSubtitle tag="h6" className="mb-2 text-muted">React,Postgresql,Express,Node.js</CardSubtitle>

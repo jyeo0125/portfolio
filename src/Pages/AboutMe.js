@@ -2,7 +2,7 @@ import { Media } from 'reactstrap';
 
 const AboutMe = ()=> {
     return(
-    <Media>
+    <Media className='aboutMecon'>
         <Media left href="https://www.linkedin.com/in/jisu-yeo-aa8978160/">
             <Media className='myPic'src="https://i.imgur.com/WnghcNl.jpg" alt="My Picture" />
         </Media>
