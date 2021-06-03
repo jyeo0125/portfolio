@@ -6,7 +6,7 @@ const AboutMe = ()=> {
         <Media left href="https://www.linkedin.com/in/jisu-yeo-aa8978160/">
             <Media className='myPic'src="https://i.imgur.com/WnghcNl.jpg" alt="My Picture" />
         </Media>
-        <Media body>
+        <Media className='aboutBody' body>
             <Media heading>
             About myslef
             </Media>

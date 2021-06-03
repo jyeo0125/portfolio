@@ -11,11 +11,12 @@ const NavBar = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Top</NavLink>
+              <NavLink href="https://www.linkedin.com/in/jisu-yeo-aa8978160/">My Linkedin</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/jyeo0125/portfolio"> Jisu's GitHub</NavLink>
+              <NavLink href="https://github.com/jyeo0125/portfolio"> My GitHub</NavLink>
             </NavItem>
+            
           </Nav>
         </Collapse>
       </Navbar>
