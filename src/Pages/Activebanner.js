@@ -1,6 +1,6 @@
 const Active = ()=> {
     return(
-        <div>
+        <div className='activeCon'>
             This place will show the animated img
         </div>
     )
